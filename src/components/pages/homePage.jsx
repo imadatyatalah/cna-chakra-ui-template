@@ -45,7 +45,7 @@ const HomePage = () => (
             variant="solid"
             mb="2"
             mr={{ lg: "5" }}
-            fontWeight="500"
+            fontWeight="600"
             size="lg"
           >
             Create new account
@@ -55,7 +55,7 @@ const HomePage = () => (
             variant="outline"
             mb="2"
             px="12"
-            fontWeight="500"
+            fontWeight="600"
             size="lg"
           >
             Login
