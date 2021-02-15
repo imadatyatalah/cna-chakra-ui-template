@@ -1,8 +1,7 @@
 import { Box } from "@chakra-ui/react";
-import dynamic from "next/dynamic";
 import NextHead from "next/head";
 
-const Header = dynamic(() => import("../header"));
+import Header from "../header";
 
 const Layout = ({ children }) => (
   <>

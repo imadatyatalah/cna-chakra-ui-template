@@ -1,8 +1,5 @@
-import dynamic from "next/dynamic";
-
-const Custom404Page = dynamic(() => import("../components/pages/404"));
-
 import { SEO } from "../components/seo";
+import Custom404Page from "../components/pages/404";
 
 const Custom404 = () => (
   <>

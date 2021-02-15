@@ -1,8 +1,5 @@
-import dynamic from "next/dynamic";
-
-const HomePage = dynamic(() => import("../components/pages/homePage"));
-
 import { SEO } from "../components/seo";
+import HomePage from "../components/pages/homePage";
 
 const Home = () => (
   <>

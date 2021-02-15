@@ -1,11 +1,9 @@
 import { useState } from "react";
 import { Box, useColorMode } from "@chakra-ui/react";
-import dynamic from "next/dynamic";
-
-const HamburgerMenu = dynamic(() => import("../UI/header/hamburgerMenu"));
-const DarkModeToggle = dynamic(() => import("../UI/header/darkModeToggle"));
 
 import Links from "./links";
+import HamburgerMenu from "../UI/header/hamburgerMenu";
+import DarkModeToggle from "../UI/header/darkModeToggle";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
