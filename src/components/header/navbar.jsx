@@ -21,7 +21,7 @@ const Navbar = () => {
         <HamburgerMenu toggled={isOpen} toggle={setIsOpen} />
         <Box
           as="ul"
-          bg={{ base: "customYellow", lg: "transparent" }}
+          bg={{ base: "telegram.500", lg: "transparent" }}
           display={{
             base: isOpen ? "block" : "none",
             lg: "flex",
