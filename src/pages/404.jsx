@@ -24,7 +24,7 @@ const Custom404 = () => (
           height="600"
           alt="error 404 robot"
         />
-        <Button colorScheme="telegram" size="lg">
+        <Button colorScheme="facebook" size="lg">
           <NextLink href="/">
             <a>Back to home page.</a>
           </NextLink>

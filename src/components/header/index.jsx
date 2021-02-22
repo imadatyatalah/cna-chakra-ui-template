@@ -5,7 +5,7 @@ import Navbar from "./navbar";
 
 const Header = () => (
   <>
-    <Box as="header" bg="telegram.500" color="white">
+    <Box as="header" bg="telegram.700" color="white" fontSize="18px">
       <Box
         display="flex"
         justifyContent="space-between"

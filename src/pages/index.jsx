@@ -40,7 +40,7 @@ const Home = () => (
           flexDir={{ base: "column", lg: "row" }}
         >
           <Button
-            colorScheme="telegram"
+            colorScheme="facebook"
             variant="solid"
             mb="2"
             mr={{ lg: "5" }}
@@ -50,7 +50,7 @@ const Home = () => (
             Create new account
           </Button>
           <Button
-            colorScheme="telegram"
+            colorScheme="facebook"
             variant="outline"
             mb="2"
             px="12"
