@@ -1,21 +1,21 @@
-import { Button, VisuallyHidden } from "@chakra-ui/react";
+import { Button } from "@chakra-ui/react";
 import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 
 const DarkModeToggle = ({ onClick, colorMode }) => (
   <>
-    <VisuallyHidden>
-      {colorMode === "light" ? "Switch to dark mode" : "Switch to light mode"}
-    </VisuallyHidden>
     <Button
+      aria-label={
+        colorMode === "light" ? "Switch to dark mode" : "Switch to light mode"
+      }
       ml={{ lg: "6" }}
-      onClick={onClick}
       variant="ghost"
       _hover={{ color: "black", bgColor: "white" }}
+      onClick={onClick}
     >
       {colorMode === "light" ? (
         <MoonIcon name="moon-icon" />
       ) : (
-        <SunIcon name="sun-icon" color="black" />
+        <SunIcon name="sun-icon" />
       )}
     </Button>
   </>
