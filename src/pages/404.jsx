@@ -23,6 +23,7 @@ const Custom404 = () => (
           width="600"
           height="600"
           alt="error 404 robot"
+          priority
         />
         <Button colorScheme="facebook" size="lg">
           <NextLink href="/">

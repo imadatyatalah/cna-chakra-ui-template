@@ -62,7 +62,13 @@ const Home = () => (
         </Box>
       </Box>
       <Box maxW={{ base: "xl", lg: "auto" }}>
-        <NextImage src="/team-bro.png" width="600" height="600" alt="team" />
+        <NextImage
+          src="/team-bro.png"
+          width="600"
+          height="600"
+          alt="team"
+          priority
+        />
       </Box>
     </Box>
   </>
