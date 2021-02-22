@@ -3,7 +3,6 @@ import { extendTheme, ChakraProvider } from "@chakra-ui/react";
 import Layout from "../components/layout";
 
 import "@fontsource/poppins/400.css";
-import "@fontsource/poppins/500.css";
 import "@fontsource/poppins/600.css";
 import "@fontsource/poppins/700.css";
 import "@fontsource/poppins/800.css";
@@ -12,9 +11,6 @@ const theme = extendTheme({
   fonts: {
     body: "Poppins, -apple-system",
     heading: "Poppins, -apple-system",
-  },
-  colors: {
-    customYellow: "#FFCF3C",
   },
 });
 

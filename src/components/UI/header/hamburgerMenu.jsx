@@ -1,10 +1,9 @@
-import { Box, VisuallyHidden } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import { Turn as Hamburger } from "hamburger-react";
 
 const HamburgerMenu = ({ toggled, toggle }) => (
   <>
     <Box display={{ lg: "none" }}>
-      <VisuallyHidden>hamburger menu</VisuallyHidden>
       <Hamburger
         hideOutline={false}
         label="hamburger menu"
