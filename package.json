@@ -13,7 +13,7 @@
     "@emotion/react": "^11.1.5",
     "@emotion/styled": "^11.3.0",
     "@fontsource/poppins": "^4.3.0",
-    "framer-motion": "^4.1.13",
+    "framer-motion": "^4.1.15",
     "hamburger-react": "^2.4.1",
     "next": "10.2.0",
     "react": "17.0.2",
