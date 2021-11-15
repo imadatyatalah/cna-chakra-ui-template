@@ -11,7 +11,7 @@
     "@chakra-ui/icons": "^1.0.15",
     "@chakra-ui/react": "^1.6.6",
     "@emotion/react": "^11.4.1",
-    "@emotion/styled": "^11.3.0",
+    "@emotion/styled": "^11.6.0",
     "@fontsource/poppins": "^4.5.0",
     "framer-motion": "^4.1.17",
     "hamburger-react": "^2.4.1",
