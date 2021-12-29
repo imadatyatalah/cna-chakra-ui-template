@@ -36,6 +36,8 @@
 
 ## Deploy
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fimadatyatalah%2Fcna-chakra-ui-template&demo-title=Next.js%20and%20Chakra-UI%20Template.&demo-url=https%3A%2F%2Fcna-chakra-ui-template.vercel.app%2F&demo-image=https%3A%2F%2Fraw.githubusercontent.com%2Fimadatyatalah%2Fcna-chakra-ui-template%2Fmain%2Fscreenshot.png)
+
 ## Getting Started
 
 Create a new application using `create-next-app` with the `-e | --example` flag pointing to this repository's _url_, like so:
