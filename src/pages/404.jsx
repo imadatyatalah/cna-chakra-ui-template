@@ -1,12 +1,12 @@
-import { Box, Button } from "@chakra-ui/react";
 import NextImage from "next/image";
 import NextLink from "next/link";
 
-import { SEO } from "../components/seo";
+import { Box, Button } from "@chakra-ui/react";
+import { NextSeo } from "next-seo";
 
 const Custom404 = () => (
   <>
-    <SEO title="404 Page Not Found" />
+    <NextSeo title="404 Page Not Found" />
 
     <Box
       as="section"

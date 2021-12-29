@@ -1,11 +1,11 @@
-import { Box, Heading, Text, Button } from "@chakra-ui/react";
 import NextImage from "next/image";
 
-import { SEO } from "../components/seo";
+import { Box, Heading, Text, Button } from "@chakra-ui/react";
+import { NextSeo } from "next-seo";
 
 const Home = () => (
   <>
-    <SEO title="Home" />
+    <NextSeo title="Home" />
 
     <Box
       as="section"
