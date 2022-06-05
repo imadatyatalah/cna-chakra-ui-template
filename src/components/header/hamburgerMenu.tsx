@@ -1,7 +1,14 @@
+import type { Dispatch, SetStateAction } from "react";
+
 import { Box } from "@chakra-ui/react";
 import { Turn as Hamburger } from "hamburger-react";
 
-const HamburgerMenu = ({ toggled, toggle }) => (
+interface Props {
+  toggled: boolean;
+  toggle: Dispatch<SetStateAction<boolean>>;
+}
+
+const HamburgerMenu = ({ toggled, toggle }: Props) => (
   <Box display={{ lg: "none" }}>
     <Hamburger
       hideOutline={false}

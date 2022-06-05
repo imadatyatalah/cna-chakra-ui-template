@@ -37,13 +37,11 @@ const Home = () => (
           display="flex"
           justifyContent={{ base: "center", lg: "flex-start" }}
           alignItems="center"
-          flexDir={{ base: "column", lg: "row" }}
         >
           <Button
             colorScheme="facebook"
             variant="solid"
-            mb="2"
-            mr={{ lg: "5" }}
+            mr="5"
             fontWeight="600"
             size="lg"
           >
@@ -52,7 +50,6 @@ const Home = () => (
           <Button
             colorScheme="facebook"
             variant="outline"
-            mb="2"
             px="12"
             fontWeight="600"
             size="lg"

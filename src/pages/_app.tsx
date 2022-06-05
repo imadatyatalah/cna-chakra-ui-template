@@ -1,3 +1,5 @@
+import type { AppProps } from "next/app";
+
 import { DefaultSeo } from "next-seo";
 
 import { extendTheme, ChakraProvider } from "@chakra-ui/react";
@@ -17,7 +19,7 @@ const theme = extendTheme({
   },
 });
 
-const MyApp = ({ Component, pageProps }) => (
+const MyApp = ({ Component, pageProps }: AppProps) => (
   <>
     <DefaultSeo {...SEO} />
 

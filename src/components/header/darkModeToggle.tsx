@@ -1,7 +1,14 @@
-import { Button } from "@chakra-ui/react";
+import type { MouseEventHandler } from "react";
+
+import { Button, ColorMode } from "@chakra-ui/react";
 import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 
-const DarkModeToggle = ({ onClick, colorMode }) => (
+interface Props {
+  onClick: MouseEventHandler<HTMLButtonElement> | undefined;
+  colorMode: ColorMode;
+}
+
+const DarkModeToggle = ({ onClick, colorMode }: Props) => (
   <Button
     aria-label={
       colorMode === "light" ? "Switch to dark mode" : "Switch to light mode"
